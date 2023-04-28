@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+h1 {
+  position: absolute;
+  color: white;
+  max-width: 970px;
+  margin: 0 auto;
+  text-align: center;
+  top: 0%;
+  left: 0;
+  right: 0;
+  transform: translateY(0%);
+  text-transform: uppercase;
+}
+
+h2 {
+  position: absolute;
+  color: white;
+  max-width: 970px;
+  margin: 0 auto;
+  text-align: right;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  font-family: "brandon-grotesque", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 20px;
+  pointer-events: none;
+  padding: 0 15px;
+  line-height: 40px;
+}
+
+#nugaonlogo {
+  width: 300px;
+  height: 200px;
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 31px;
+  }
+}
